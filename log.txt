@@ -1,0 +1,78 @@
+[2023-10-09 19:47:57.401] [DEBUG] [helix-term/src/main.rs:67]: debug line
+[2023-10-09 19:47:57.403] [INFO ] [helix-term/src/main.rs:68]: Hello world
+[2023-10-09 19:47:57.403] [INFO ] [helix-term/src/main.rs:69]: Hello world
+[2023-10-09 19:47:57.403] [INFO ] [helix-term/src/main.rs:70]: Hello world
+[2023-10-09 19:47:57.403] [INFO ] [helix-term/src/main.rs:71]: Hello world
+[2023-10-09 19:47:57.403] [ERROR] [helix-term/src/main.rs:72]: Help
+[2023-10-09 19:47:57.403] [DEBUG] [helix-term/src/main.rs:73]: Are you sure?
+[2023-10-09 19:47:57.403] [TRACE] [helix-term/src/main.rs:74]: Sherlock
+[2023-10-09 19:47:57.404] [TRACE] [/home/nemesis/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-0.8.6/src/poll.rs:532]: registering event source with poller: token=Token(1), interests=READABLE
+[2023-10-09 19:47:57.570] [DEBUG] [helix-loader/src/lib.rs:73]: runtime dir: /home/nemesis/Documents/Github/Focus/ide/helix_master/runtime
+[2023-10-09 19:47:57.652] [DEBUG] [helix-view/src/clipboard.rs:114]: Using xclip to interact with the system and selection (primary) clipboard
+[2023-10-09 19:47:57.653] [TRACE] [/home/nemesis/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-0.8.6/src/poll.rs:532]: registering event source with poller: token=Token(94663512908544), interests=READABLE | WRITABLE
+[2023-10-09 19:47:57.654] [TRACE] [/home/nemesis/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-0.8.6/src/poll.rs:532]: registering event source with poller: token=Token(94663512908928), interests=READABLE | WRITABLE
+[2023-10-09 19:47:57.777] [DEBUG] [helix-tui/src/backend/crossterm.rs:90]: The keyboard enhancement protocol is not supported in this terminal (checked in 122.118206ms)
+[2023-10-09 19:47:57.782] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 19:47:57.787] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 19:47:57.903] [DEBUG] [helix-term/src/application.rs:579]: received editor event: IdleTimer
+[2023-10-09 20:15:16.178] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:17.489] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:17.503] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:17.802] [DEBUG] [helix-term/src/application.rs:579]: received editor event: IdleTimer
+[2023-10-09 20:15:18.596] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:18.934] [DEBUG] [helix-term/src/application.rs:579]: received editor event: IdleTimer
+[2023-10-09 20:15:21.968] [TRACE] [helix-term/src/commands.rs:2596]: entering insert mode with sel: Selection { ranges: [Range { anchor: 1, head: 1, old_visual_position: None }], primary_index: 0 }, text: "\n"
+[2023-10-09 20:15:21.976] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:30.481] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:30.814] [DEBUG] [helix-term/src/application.rs:579]: received editor event: IdleTimer
+[2023-10-09 20:15:30.818] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:31.571] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:31.583] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:34.438] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:34.841] [DEBUG] [helix-term/src/application.rs:579]: received editor event: IdleTimer
+[2023-10-09 20:15:36.143] [TRACE] [helix-term/src/commands.rs:2596]: entering insert mode with sel: Selection { ranges: [Range { anchor: 1, head: 1, old_visual_position: None }], primary_index: 0 }, text: "\n"
+[2023-10-09 20:15:36.148] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:37.315] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:37.334] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:42.355] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:42.594] [DEBUG] [helix-term/src/application.rs:579]: received editor event: IdleTimer
+[2023-10-09 20:15:48.370] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:48.618] [DEBUG] [helix-term/src/application.rs:579]: received editor event: IdleTimer
+[2023-10-09 20:15:49.444] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:49.689] [DEBUG] [helix-term/src/application.rs:579]: received editor event: IdleTimer
+[2023-10-09 20:15:57.993] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:59.370] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:59.395] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:59.425] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:59.477] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:59.526] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:59.584] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:59.746] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:59.773] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:59.793] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:59.826] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:15:59.913] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:00.112] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:00.135] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:00.146] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:00.177] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:00.297] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:00.320] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:00.349] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:00.392] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:00.496] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:00.526] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:00.538] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:00.714] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:00.763] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:00.846] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:01.092] [DEBUG] [helix-term/src/application.rs:579]: received editor event: IdleTimer
+[2023-10-09 20:16:04.537] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:06.009] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:08.638] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:08.976] [DEBUG] [helix-term/src/application.rs:579]: received editor event: IdleTimer
+[2023-10-09 20:16:10.853] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:11.196] [DEBUG] [helix-term/src/application.rs:579]: received editor event: IdleTimer
+[2023-10-09 20:16:12.045] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0
+[2023-10-09 20:16:12.361] [DEBUG] [helix-term/src/application.rs:579]: received editor event: IdleTimer
+[2023-10-09 20:16:19.669] [DEBUG] [helix-view/src/document.rs:1463]: id 1 modified - last saved: 0, current: 0

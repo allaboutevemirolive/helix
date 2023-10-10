@@ -33,7 +33,46 @@ fn setup_logging(verbosity: u64) -> Result<()> {
     Ok(())
 }
 
+
+use chrono::Local;
+use log::*;
+use std::fs::File;
+use std::io::Write;
+
+fn init_logger() {
+    let target = Box::new(File::create("log.txt").expect("Can't create file"));
+
+    env_logger::Builder::new()
+        .target(env_logger::Target::Pipe(target))
+        // log messages of 'trace' level and higher
+        .filter(None, LevelFilter::Trace)
+        .format(|buf, record| {
+            writeln!(
+                buf,
+                "[{}] [{:<5}] [{:<20}:{}]: {}",
+                Local::now().format("%Y-%m-%d %H:%M:%S%.3f"),
+                record.level(),
+                record.file().unwrap_or("unknown"),
+                record.line().unwrap_or(0),
+                record.args()
+            )
+        })
+        .init();
+}
+
+
 fn main() -> Result<()> {
+    init_logger();
+
+    debug!("debug line");
+    info!("Hello world");
+    info!("Hello world");
+    info!("Hello world");
+    info!("Hello world");
+    error!("Help");
+    debug!("Are you sure?");
+    trace!("Sherlock");
+    
     let exit_code = main_impl()?;
     std::process::exit(exit_code);
 }
@@ -113,7 +152,7 @@ FLAGS:
         return Ok(0);
     }
 
-    setup_logging(args.verbosity).context("failed to initialize logging")?;
+    // setup_logging(args.verbosity).context("failed to initialize logging")?;
 
     let config = match Config::load_default() {
         Ok(config) => config,
